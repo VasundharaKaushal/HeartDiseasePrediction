@@ -2,55 +2,46 @@
 
 ## 1. Problem Statement
 
-The objective of this project is to build and evaluate multiple machine learning classification models to predict whether a customer will opt for a subscription service based on their shopping behavior and demographic attributes.
+The objective of this project is to evaluate the performance of multiple machine learning models on Heart Disease Prediction dataset and compare their effectiveness using key evaluation metrics. The goal is to determine which algorithm best suits the problem based on accuracy, AUC, precision, recall, F1 score, and MCC.
+
 
 This project demonstrates an end-to-end machine learning workflow, including:
 
-Data preprocessing
-
-Feature engineering
-
-Model training and evaluation
-
-Comparison of multiple classification algorithms
-
-Deployment of a trained model using a Streamlit web application
+- Data preprocessing
+-Feature engineering
+- Model training and evaluation
+- Comparison of multiple classification algorithms
+- Deployment of a trained model using a Streamlit web application
 
 The final goal is to assist businesses in identifying customers who are more likely to subscribe, enabling better marketing and retention strategies.
 
 ## 2. Dataset Description
 
-Dataset Name: Customer Shopping Behavior Dataset
+**Dataset Name:** Heart Disease Prediction 
 
-Source: Public dataset (Kaggle / UCI-style dataset)
+**Source:** Public dataset (Kaggle / UCI-style dataset)
 
-Number of Instances: 3900
+**Number of Instances:** 4239
 
-Number of Features: 17 (excluding target variable)
+**Number of Features:** 16 (excluding target variable)
 
-Target Variable: Subscription Status (Yes / No)
+**Target Variable:** TenYearCHD (Yes / No)
 
 ## 3. Machine Learning Models Used
 
-All models were trained on the same dataset using a unified preprocessing pipeline that includes:
+**All models were trained on the same dataset using a unified preprocessing pipeline that includes:**
 
-Standard Scaling for numerical features
+-Standard Scaling for numerical features
+-One-Hot Encoding for categorical features
 
-One-Hot Encoding for categorical features
+**Models Implemented**
 
-Models Implemented
-
-Logistic Regression
-
-Decision Tree Classifier
-
-K-Nearest Neighbors (KNN)
-
-Naive Bayes (Gaussian)
-
-Random Forest (Ensemble Model)
-
-XGBoost (Ensemble Model)
+- Logistic Regression
+- Decision Tree Classifier
+- K-Nearest Neighbors (KNN)
+- Naive Bayes (Gaussian)
+- Random Forest (Ensemble Model)
+- XGBoost (Ensemble Model)
 
 | ML Model Name       | Accuracy |    AUC   | Precision |  Recall  |    F1    |   MCC    |
 |---------------------|----------|----------|-----------|----------|----------|----------|
