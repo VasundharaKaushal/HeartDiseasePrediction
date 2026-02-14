@@ -1,6 +1,6 @@
 # HeartDiseasePrediction
 
-##1. Problem Statement
+## 1. Problem Statement
 
 The objective of this project is to build and evaluate multiple machine learning classification models to predict whether a customer will opt for a subscription service based on their shopping behavior and demographic attributes.
 
@@ -18,7 +18,7 @@ Deployment of a trained model using a Streamlit web application
 
 The final goal is to assist businesses in identifying customers who are more likely to subscribe, enabling better marketing and retention strategies.
 
-##2. Dataset Description
+## 2. Dataset Description
 
 Dataset Name: Customer Shopping Behavior Dataset
 
@@ -30,7 +30,7 @@ Number of Features: 17 (excluding target variable)
 
 Target Variable: Subscription Status (Yes / No)
 
-##3. Machine Learning Models Used
+## 3. Machine Learning Models Used
 
 All models were trained on the same dataset using a unified preprocessing pipeline that includes:
 
